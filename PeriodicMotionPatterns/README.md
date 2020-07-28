@@ -9,7 +9,7 @@ For m balls to all be at their initial position at the same time, we must have t
 
 The number of times the ball with the largest period must bounce for the system to return to its initial configuration is the least common multiple of all a_n.
 
-We can find the least common multiple of all a_n by using a program that iterates through each integer. If the max period is T_max, then for each ball we need to find a_max so that [(a_max)(T_max)]/T_n = an integer. After finding all of these integers, we then take the least common multiple and that will be the number of times the ball with the highest period must bounce.
+We can find the least common multiple of all a_n by using a program that iterates through each integer. If the max period is T_max, then for each ball we need to find a_max so that [(a_max)(T_max)]/T_n = an integer. If the program counts up, then the first integer that satisfies the condition will be the number of times the ball with the highest period must bounce.
 
 The animation below shows the special case, and the number below each ball indicates the number of times that particular ball must bounce for that ball and all balls left of it to be at their initial positions.
 
