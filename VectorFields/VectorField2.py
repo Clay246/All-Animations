@@ -65,7 +65,7 @@ def animate(i):
     global x, y
     for i in range(10):
         x += Fieldx(x, y)*.02/(50) # A numerical integration approach
-        y += Fieldy(x, y)*.02/(50) # This is left as .02/5 because .02 is the interval
+        y += Fieldy(x, y)*.02/(50) # This is left as .02/50 because .02 is the interval
     es[0].tail(x, y, field, 'dodgerblue', n=60*len(x))
 
 ani = animation.FuncAnimation(fig, animate, interval=20, frames=700, repeat=False)
