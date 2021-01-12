@@ -89,7 +89,8 @@ def animate(i):
     for j in range(len(scatters)):
         ts_scatters[j+2*len(scatters)].dot_transition(i, 4.4+j/100, 50, 5, scatters[j], transition_time=.3)
 
-    if ans.time(i) == 6: # The purpose of this is to prevent the dots from disppearing for a few frames when the simulation starts/ends.
+    # The purpose of this is to prevent the dots from disppearing for a few frames when the simulation starts/ends.
+    if ans.time(i) == 6:
         for k in range(30):
             for j in range(len(scatters)):
                 scatters[j].set_offsets([objects[j].pos[0], objects[j].pos[1]])
