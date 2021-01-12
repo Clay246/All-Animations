@@ -6,5 +6,5 @@ The animation is created by running an simulation of the n-body problem with the
 
 Some older test animations are available:
 
-![](n-bodyName Test1.gif)
-![](n-bodyName Test2.gif)
+![](n-bodyNameTest1.gif)
+![](n-bodyNameTest2.gif)
